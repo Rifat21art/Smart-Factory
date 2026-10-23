@@ -2,6 +2,8 @@
 
 Simulation tool for comparing dispatching and maintenance policies in a job shop whose machine failures follow the AI4I 2020 failure modes.
 
+Live app link : https://smart-factory-ujthkekpsalcuxkboavmto.streamlit.app/  
+
 ## Background and findings (load 0.9, 20 test seeds)
 Job-shop delivery performance depends on which job a free machine takes next and on when machines are maintained. This tool evaluates both decisions together: five classical dispatching rules, fixed-schedule maintenance, a learned failure-risk model that triggers maintenance (AI-PdM), and a learned tardiness model that adjusts ATC dispatching.
 
@@ -16,6 +18,7 @@ Simulation-based. All methods are tuned on separate validation seeds and compare
 
 ## Use
 Requires Python 3.9+. Windows: double-click `run_app.bat`. Mac/Linux: `./run_app.sh`. The first start installs the packages and opens the tool in the browser.
+
 
 | Tab | Function |
 |---|---|
