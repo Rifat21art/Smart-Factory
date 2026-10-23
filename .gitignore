@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/aux.pkl
+data/ai4i_like_synthetic.csv
+run_app.sh
+smart_factory_architecture.drawio

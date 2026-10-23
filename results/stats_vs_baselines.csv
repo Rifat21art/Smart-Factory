@@ -1,0 +1,55 @@
+baseline,policy,metric,improvement_pct,ci_lo,ci_hi,wilcoxon_p
+EDD,FIFO,mean_tard,-83.5171,-132.9005,-54.7906,0.0
+EDD,FIFO,pct_tardy,-31.1124,-50.027,-16.715,0.0001
+EDD,FIFO,mean_flow,-9.2216,-11.797,-6.7209,0.0
+EDD,SPT,mean_tard,-1.8302,-33.6889,15.8754,0.1429
+EDD,SPT,pct_tardy,53.2871,46.1407,59.1217,0.0
+EDD,SPT,mean_flow,22.2585,18.9268,25.115,0.0
+EDD,CR,mean_tard,16.2129,-1.069,34.5605,0.0023
+EDD,CR,pct_tardy,0.7427,-6.4477,7.2665,0.7782
+EDD,CR,mean_flow,-0.298,-2.8319,2.0926,0.8408
+EDD,ATC,mean_tard,38.7507,34.4616,44.052,0.0
+EDD,ATC,pct_tardy,19.4467,14.4436,24.8179,0.0001
+EDD,ATC,mean_flow,6.3705,4.2548,8.6396,0.0
+EDD,EDD + periodic PM,mean_tard,-43.5352,-85.5053,-15.2144,0.002
+EDD,EDD + periodic PM,pct_tardy,-27.7552,-41.811,-15.2788,0.0003
+EDD,EDD + periodic PM,mean_flow,-9.769,-14.0608,-5.429,0.0003
+EDD,EDD + AI-PdM,mean_tard,80.1351,73.4444,85.1376,0.0
+EDD,EDD + AI-PdM,pct_tardy,66.0718,60.523,72.4582,0.0
+EDD,EDD + AI-PdM,mean_flow,26.5972,23.3771,30.3095,0.0
+EDD,ATC + AI-PdM,mean_tard,89.1201,85.8359,91.6803,0.0
+EDD,ATC + AI-PdM,pct_tardy,77.6438,72.4806,83.0239,0.0
+EDD,ATC + AI-PdM,mean_flow,29.6645,26.1334,33.7986,0.0
+EDD,AI-dispatch,mean_tard,35.0048,27.7919,44.407,0.0
+EDD,AI-dispatch,pct_tardy,39.75,34.5903,43.9896,0.0
+EDD,AI-dispatch,mean_flow,6.3488,4.1209,8.3938,0.0001
+EDD,AI-dispatch + AI-PdM,mean_tard,87.2457,83.8479,90.5038,0.0
+EDD,AI-dispatch + AI-PdM,pct_tardy,80.3864,76.3586,85.0007,0.0
+EDD,AI-dispatch + AI-PdM,mean_flow,29.0737,25.3846,33.0156,0.0
+ATC,FIFO,mean_tard,-199.6232,-291.4727,-150.287,0.0
+ATC,FIFO,pct_tardy,-62.7647,-91.8684,-44.5079,0.0
+ATC,FIFO,mean_flow,-16.653,-19.8375,-13.6461,0.0
+ATC,SPT,mean_tard,-66.2553,-123.8178,-36.2376,0.0
+ATC,SPT,pct_tardy,42.01,31.2682,49.562,0.0001
+ATC,SPT,mean_flow,16.9691,13.7451,19.5756,0.0
+ATC,EDD,mean_tard,-63.2672,-78.7389,-52.5823,0.0
+ATC,EDD,pct_tardy,-24.1414,-33.0103,-16.8822,0.0001
+ATC,EDD,mean_flow,-6.8039,-9.4567,-4.4439,0.0
+ATC,CR,mean_tard,-36.7969,-60.8584,-7.2784,0.0266
+ATC,CR,pct_tardy,-23.2193,-36.992,-13.0852,0.0007
+ATC,CR,mean_flow,-7.1223,-11.5745,-3.6709,0.0003
+ATC,EDD + periodic PM,mean_tard,-134.3458,-202.7146,-87.375,0.0
+ATC,EDD + periodic PM,pct_tardy,-58.5971,-79.9638,-43.2362,0.0001
+ATC,EDD + periodic PM,mean_flow,-17.2376,-21.1216,-13.1825,0.0
+ATC,EDD + AI-PdM,mean_tard,67.5671,56.8412,75.2616,0.0
+ATC,EDD + AI-PdM,pct_tardy,57.8811,50.5563,65.3293,0.0
+ATC,EDD + AI-PdM,mean_flow,21.6029,18.8307,24.3749,0.0
+ATC,ATC + AI-PdM,mean_tard,82.2366,76.7037,86.4599,0.0
+ATC,ATC + AI-PdM,pct_tardy,72.2467,65.7936,78.9098,0.0
+ATC,ATC + AI-PdM,mean_flow,24.8789,22.001,28.0858,0.0
+ATC,AI-dispatch,mean_tard,-6.1159,-24.4201,12.2263,0.7012
+ATC,AI-dispatch,pct_tardy,25.2048,16.7821,31.9232,0.0003
+ATC,AI-dispatch,mean_flow,-0.0231,-2.9368,2.5589,0.5217
+ATC,AI-dispatch + AI-PdM,mean_tard,79.1764,74.0547,84.3103,0.0
+ATC,AI-dispatch + AI-PdM,pct_tardy,75.6514,70.6469,81.1114,0.0
+ATC,AI-dispatch + AI-PdM,mean_flow,24.248,21.244,27.2998,0.0

@@ -1,0 +1,13 @@
+{
+ "data_source": "UCI AI4I 2020 (real)",
+ "n_rows": 10000,
+ "fail_auc": 0.9884179690807187,
+ "fail_pr_auc": 0.9056328883427546,
+ "tard_r2_log": 0.5888094930346497,
+ "tard_spearman": 0.6947820760673646,
+ "tard_auc_late": 0.9192451271047215,
+ "atc_kk": 2.0,
+ "periodic_wear": 50,
+ "pdm_thr": 0.05,
+ "ml_a": 2.0
+}

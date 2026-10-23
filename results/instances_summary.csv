@@ -1,0 +1,13 @@
+instance,policy,mean_tard,pct_tardy,mean_flow,failures,downtime
+A_baseline,EDD,56.7,37.3,377.6,178.5,7214.6
+A_baseline,ATC,32.7,30.3,349.5,178.9,7144.7
+A_baseline,EDD + periodic PM,66.2,47.2,406.2,122.2,8517.9
+A_baseline,ATC + AI-PdM,4.9,8.9,259.4,60.0,3435.1
+B_large_8_machines,EDD,48.8,43.3,384.3,237.1,9513.0
+B_large_8_machines,ATC,26.9,33.3,358.1,234.6,9374.6
+B_large_8_machines,EDD + periodic PM,64.2,46.1,405.7,159.4,11187.3
+B_large_8_machines,ATC + AI-PdM,4.2,8.6,273.8,77.4,4525.9
+C_harsh_failures,EDD,236.2,83.4,618.4,204.0,12048.1
+C_harsh_failures,ATC,150.8,72.0,526.8,206.5,12282.7
+C_harsh_failures,EDD + periodic PM,344.1,91.6,735.4,119.2,15866.3
+C_harsh_failures,ATC + AI-PdM,25.5,28.1,340.0,82.8,6792.6

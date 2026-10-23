@@ -1,0 +1,15 @@
+scenario,policy,reduction_vs_ATC_pct,ci95
+nominal,ATC + periodic PM,-18.6,35.7
+nominal,ATC + AI-PdM,89.8,3.9
+tool life -20%,ATC + periodic PM,-9.7,42.3
+tool life -20%,ATC + AI-PdM,87.9,7.5
+tool life -40%,ATC + periodic PM,29.5,15.4
+tool life -40%,ATC + AI-PdM,84.5,5.0
+torque +6 Nm,ATC + periodic PM,-34.5,23.4
+torque +6 Nm,ATC + AI-PdM,95.2,2.9
+sensor noise 10%,ATC + periodic PM,-18.6,35.7
+sensor noise 10%,ATC + AI-PdM,57.5,25.9
+sensor noise 30%,ATC + periodic PM,-18.6,35.7
+sensor noise 30%,ATC + AI-PdM,17.6,56.3
+combined,ATC + periodic PM,-41.5,33.3
+combined,ATC + AI-PdM,70.1,10.0
